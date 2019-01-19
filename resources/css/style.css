@@ -327,11 +327,30 @@ footer {
   padding-left: 1.33rem;
 }
 
+.privacy {
+  margin-left: 1rem;
+}
+
 .terms {
   padding-right: 2rem;
 }
 
+.terms a:link {
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+}
 
+.terms a:visited{
+  color: #404040;
+}
+.terms a:hover{
+  color:gray;
+}
+
+.terms a:active{
+  color:#ff6666;
+}
 
 
 
