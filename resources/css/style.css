@@ -21,6 +21,10 @@ h3 {
   html {
     font-size: 14px;
   }
+
+  body {
+    margin: 0 1rem 1rem 1rem;
+  }
 }
 
 /*navbar*/
@@ -371,6 +375,10 @@ div.desc {
     display: none;
   }
 
+  #start {
+    padding-bottom: 0;
+  }
+
   .startlearning {
     display: flex;
     flex-flow:column;
@@ -462,6 +470,10 @@ div.desc {
 }
 /*copyright*/
 
+.mobilefooter {
+  display: none;
+}
+
 footer {
   display: flex;
   flex-flow: row;
@@ -499,8 +511,43 @@ footer {
 }
 
 @media only screen and (max-width: 825px) {
+
+  .deskfooter {
+    display: none;
+  }
+
+  .mobilefooter {
+    display: inline-block;
+    padding-bottom: 16px;
+  }
+
+  .mobilefooter a {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+
   footer {
-    width: 60%;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+
+  .mobilefooter a:link {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .mobilefooter a:visited{
+    color: #404040;
+  }
+  .mobilefooter a:hover{
+    color:gray;
+  }
+
+  .mobilefooter a:active{
+    color:#ff6666;
   }
 
 
